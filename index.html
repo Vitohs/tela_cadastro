@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+  <header>
+    <h1>
+      Tela de cadastro
+    </h1>
+  </header> 
+<div class="corpo">
+  <main>
+  <fieldset>
+    <legend>Preencha seus dados</legend>
+   <label class="label-50">
+    nome: <input type="text" name="txt_nome" placeholder="Insira seu nome..." required>
+   </label>
+
+   <label class="label-50">
+    Email: <input type="email" name="email" placeholder="...@gmail.com" required>
+   </label>
+
+   <label class="label-50">
+    Telefone: <input type="tel" name="tel" placeholder="(XX) XXXXX-XXXX" required>
+   </label>
+
+   <label class="label-50">
+    Time do coração: 
+    <select>
+      <option value="">Selecione...</option>
+      <option value="saopaulo">São Paulo FC</option>
+      <option value="galinha">Curintia</option>
+      <option value="santos">Santos FC</option>
+      <option value="palmerda">Palmeiras</option>
+    </select>
+   </label>
+
+   <label class="label-50">
+    Endereço: <input type="text" placeholder="Insira seu endereço..">
+   </label>
+
+   <label class="label-50">
+    Data de nascimento: <input type="date">
+   </label>
+  </fieldset>  
+  </main>
+</div> 
+</body>
+</html>
